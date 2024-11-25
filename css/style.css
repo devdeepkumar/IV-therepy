@@ -1158,14 +1158,15 @@ hook section end
 
 .white_block.who .row {
     margin-bottom: 30px;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .heading_who {
     color: #5c667f;
     font-size: 22px;
     margin-top: 20px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+   
 }
 
 .text_who {

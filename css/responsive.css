@@ -395,6 +395,9 @@
   .Fixed_WhatsApp_Icon {
     display: none;
   }
+  .white_block.who .row{
+    gap: 30px;
+  }
 }
 
 @media (max-width: 476px) {
@@ -680,6 +683,7 @@
   }
   .white_block.who .row{
     margin-top: 0;
+    gap: 0;
   }
   .right-area{
     gap: 0;
