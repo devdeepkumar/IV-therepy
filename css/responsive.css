@@ -89,6 +89,7 @@
   .logo_mbl {
     display: none;
   }
+ 
 }
 
 @media (min-width: 992px) {
@@ -397,6 +398,14 @@
   }
   .white_block.who .row{
     gap: 30px;
+  }
+
+  .row_laptop{
+    margin-inline: auto;
+  }
+   .people_joined {
+    justify-content: center;
+    margin-block: 15px;
   }
 }
 
