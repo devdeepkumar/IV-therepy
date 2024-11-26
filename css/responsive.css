@@ -89,7 +89,6 @@
   .logo_mbl {
     display: none;
   }
- 
 }
 
 @media (min-width: 992px) {
@@ -136,6 +135,8 @@
     display: none !important;
   }
 }
+
+
 @media (min-width: 992px) and (max-width: 1423px) {
   .right_register {
     padding: 10px;
@@ -169,13 +170,13 @@
   }
 }
 @media (max-width: 1240px) {
-    .people_joined_right img {
-        width: 55px;
-        height: 55px;
-    }
-        .people_joined_right span {
-        padding-left: 54px;
-    }
+  .people_joined_right img {
+    width: 55px;
+    height: 55px;
+  }
+  .people_joined_right span {
+    padding-left: 54px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -396,14 +397,14 @@
   .Fixed_WhatsApp_Icon {
     display: none;
   }
-  .white_block.who .row{
+  .white_block.who .row {
     gap: 30px;
   }
 
-  .row_laptop{
+  .row_laptop {
     margin-inline: auto;
   }
-   .people_joined {
+  .people_joined {
     justify-content: center;
     margin-block: 15px;
   }
@@ -412,6 +413,16 @@
 @media (max-width: 476px) {
   #arrow_2::before {
     visibility: visible !important;
+  }
+}
+
+@media (max-width: 868px) {
+  .content_area {
+    padding-inline: 120px;
+    flex-direction: column;
+    margin-bottom: 55px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -630,8 +641,6 @@
     padding-inline: 120px;
     flex-direction: column;
     margin-bottom: 55px;
-
-    
   }
 
   .content_area h4 {
@@ -687,19 +696,19 @@
   #faq .img-fluid {
     margin-bottom: 25px;
   }
-  .card-content .card-description{
+  .card-content .card-description {
     text-align: center;
   }
-  .white_block.who .row{
+  .white_block.who .row {
     margin-top: 0;
     gap: 0;
   }
-  .right-area{
+  .right-area {
     gap: 0;
   }
-   .host_about{
+  .host_about {
     margin-top: 16px;
-   }
+  }
 }
 
 @media (max-width: 476px) {
@@ -772,6 +781,9 @@
     /* Rotate the image by 90 degrees */
     transform-origin: center;
     /* Rotate around the center */
+  }
+  .benefits_desc {
+    width: auto;
   }
 }
 
@@ -901,5 +913,21 @@
 @media (max-width: 340px) {
   .google-img-rating img {
     height: 60px;
+  }
+}
+
+@media (min-width: 869px) and (max-width: 1200px) {
+  .content_area {
+    gap: 10px;
+
+    .right-area {
+      width: 300px;
+    }
+    .left-area {
+      width: 300px;
+    }
+    .center-area {
+      width: 300px;
+    }
   }
 }
