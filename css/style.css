@@ -787,7 +787,7 @@ hook section end
 }
 
 .benefits_desc {
-    width: 198px;
+    width: 300px;
     margin-inline: auto;
     font-size: 17px;
     color: var(--text-accordion);
@@ -2037,7 +2037,7 @@ Curriculum section
 }
 
 .hostname {
-    font-size: 26px !important;
+    font-size: 22px ;
 }
 
 .collapse-content {

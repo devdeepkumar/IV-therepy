@@ -179,6 +179,7 @@
     padding-left: 36px;
     
 }
+
 }
 
 @media (max-width: 991px) {
@@ -715,6 +716,9 @@
   .host_about {
     margin-top: 16px;
   }
+  .benefits_desc {
+    width: 198px;
+  }
 }
 
 @media (max-width: 476px) {
@@ -790,6 +794,9 @@
   }
   .benefits_desc {
     width: auto;
+  }
+  .hostname {
+    font-size: 26px !important;
   }
 }
 
@@ -936,4 +943,5 @@
       width: 300px;
     }
   }
+
 }
