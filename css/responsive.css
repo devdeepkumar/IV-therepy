@@ -793,6 +793,11 @@
   .hostname {
     font-size: 26px !important;
   }
+    .content_area {
+        padding-inline: 25px;
+        gap: 0px;
+      
+    }
   .content_area .center-area h4 {
     margin-bottom: 20px;
   }
